@@ -16,8 +16,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
-      "package": "com.aitezazahmed.mobile"
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",
@@ -34,18 +33,10 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ],
-      "expo-secure-store",
-      "expo-web-browser"
+      ]
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "8061d24b-f6b4-445e-b3c1-c907eae0f31f"
-      }
     }
   }
 }
